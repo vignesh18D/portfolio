@@ -1,0 +1,343 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ #skills {
+     padding: 30px;
+     margin: 50px;
+     margin-right: 80px;
+     align-items: center;
+     align-items: center;
+ }
+ 
+ .column-1 img {
+     align-items: center;
+     justify-content: center;
+     border-radius: 15px;
+     width: auto;
+     height: 380px;
+     margin-top: 100px;
+     margin-left: 80px;
+     overflow: hidden;
+ }
+ 
+ .column-2 {
+     color: white;
+     flex: 60%;
+     margin-left: -100px;
+     margin-top: 10px;
+ }
+ 
+ .column-2 h1 {
+     font-size: 50px;
+     color: rgb(155, 155, 255)
+ }
+ 
+ .row {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-right: 30px;
+ }
+ 
+ .column-1 {
+     flex: 35%;
+ }
+ 
+ .skill {
+     display: flex;
+     margin: 20px 0 40px;
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ .items {
+     margin-right: 80px;
+     font-weight: 500;
+     cursor: pointer;
+     font-size: 25px;
+     position: relative;
+ }
+ 
+ .items.active::after {
+     content: '';
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 4px;
+     background-color: blue;
+     border-radius: 10px;
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ .skills-box {
+     width: 100%;
+     height: 230px;
+     border: 2px solid white;
+     margin-top: -20px;
+     position: relative;
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ .icons {
+     width: 50px;
+     height: 50px;
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ .icons:hover {
+     transform: scale(1.5);
+     color: blue;
+ }
+ 
+ .skill-content,
+ .skill-content2 {
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ 
+ .skill-content li,
+ .skill-content2 li {
+     padding: 10px;
+     list-style: none;
+     text-align: center;
+ }
+ 
+ .education {
+     width: 100%;
+     height: 200px;
+     border: 2px solid white;
+     margin-top: -20px;
+     position: relative;
+     padding: 10px;
+ }
+ 
+ .edu-content h2 {
+     margin-top: 10px;
+     font-size: 25px;
+     letter-spacing: 2px;
+ }
+ 
+ .edu-content .clg,
+ .edu-content p {
+     font-size: 22px;
+ }
+ 
+ .cer-box {
+     width: 100%;
+     height: 240px;
+     border: 2px solid white;
+     margin-top: -20px;
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ .school {
+     margin-top: 10px;
+ }
+ 
+ .column-2 p {
+     font-size: 17px;
+ }
+ 
+ .column-2 span {
+     letter-spacing: 5px;
+ }
+ 
+ .cer-box {
+     display: flex;
+ }
+ 
+ .cer-det {
+     padding: 13px;
+     margin-top: -20px;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .cer-det h2 {
+     margin-top: 15px;
+     font-family: 'poppins', sans-serif;
+ }
+ 
+ .cer-det p {
+     font-family: 'roboto';
+     margin-top: 2px;
+ }
+ 
+ .photo img {
+     width: 180px;
+     height: 210px;
+     padding: 10px;
+     margin-top: 10px;
+     margin-left: 50px;
+     border: none;
+     position: absolute;
+ }
+ 
+ @media only screen and (max-width:750px) {
+     #skills {
+         display: flex;
+         justify-content: space-between;
+         color: white;
+         height: auto;
+         padding: 10px;
+         margin-left: 80px;
+     }
+     .column-1 img {
+         align-items: center;
+         border-radius: 15px;
+         width: auto;
+         height: 120px;
+         overflow: hidden;
+         margin-right: 100px;
+     }
+     .column-1 {
+         margin-left: -140px;
+         margin-top: -50px;
+     }
+     .column-2 {
+         color: white;
+         margin-top: -200px;
+         text-align: center;
+         margin-left: 30px;
+     }
+     .row {
+         display: flex;
+         margin-right: 30px;
+         margin-top: -10px
+     }
+     .column-2 h1 {
+         font-size: 30px;
+         color: rgb(155, 155, 255);
+         text-align: left;
+         margin-left: -90px;
+         margin-bottom: 10px;
+         padding: 10px;
+     }
+     .column-2 p {
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         font-size: 12px;
+         margin-bottom: 100px;
+     }
+     .column-2 .para {
+         width: 230px;
+         height: 40px;
+         align-items: right;
+         margin-top: -10px;
+     }
+     .skill {
+         display: flex;
+         gap: 20px;
+         font-family: 'Roboto', sans-serif;
+     }
+     .skill h4 {
+         align-items: right;
+         margin-left: -80px;
+         font-size: 20px;
+     }
+     .skills-box {
+         width: 330px;
+         height: 200px;
+         border: 2px solid white;
+         position: relative;
+         transition: all 0.3s ease-in-out;
+         margin-left: -105px;
+         margin-top: -25px;
+     }
+     .icons {
+         display: flex;
+         flex-wrap: wrap;
+         height: 30px;
+         transition: all 0.3s ease-in-out;
+         margin-left: -30px;
+     }
+     .icons:hover {
+         transform: scale(1.5);
+         color: blue;
+     }
+     .skill-content2 {
+         padding: 2px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 5px;
+         font-size: 11px;
+         margin-left: 25px;
+     }
+     .skill-content li,
+     .skill-content2 li {
+         padding: 10px;
+         list-style: none;
+         text-align: center;
+     }
+     .skill-content {
+         gap: 15px;
+         padding: 10px;
+         display: flex;
+         margin-left: 15px;
+         font-size: 14px;
+     }
+     .education {
+         width: 330px;
+         height: 150px;
+         border: 2px solid white;
+         margin-top: -20px;
+         padding: 10px;
+         margin-left: -100px;
+         text-align: left;
+     }
+     .edu-content h2 {
+         font-size: 15px;
+         letter-spacing: 2px;
+     }
+     .edu-content .clg,
+     .edu-content p {
+         font-size: 13px;
+     }
+     .edu-content .mark {
+         margin-top: -100px;
+     }
+     .edu-content .school {
+         margin-top: -90px;
+     }
+     .edu-content {
+         margin-top: -10px;
+     }
+     .cer-box {
+         width: 345px;
+         height: 210px;
+         border: 2px solid white;
+         transition: all 0.3s ease-in-out;
+         margin-left: -115px;
+         position: relative;
+     }
+     .cer-box {
+         display: flex;
+     }
+     .cer-det {
+         padding: 13px;
+         align-items: center;
+         text-align: left;
+     }
+     .cer-det h2 {
+         font-family: 'poppins', sans-serif;
+         font-size: 13px;
+     }
+     .cer-det p {
+         font-family: 'roboto';
+     }
+     .photo img {
+         width: 100px;
+         height: 130px;
+         padding: 10px;
+         margin-top: 10px;
+         border: none;
+         position: relative;
+         margin-left: -10px;
+     }
+     .cer-det .python,
+     .cer-det .full {
+         margin-top: -90px
+     }
+ }
