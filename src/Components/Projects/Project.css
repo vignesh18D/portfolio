@@ -85,19 +85,22 @@
     border: 1px solid blue;
 }
 
-@media only screen and (max-width:750px) {
+
+/* @media only screen and (max-width:425px) {
     #project {
-        padding: 10px;
-        margin: 10px;
+        padding: 20px;
         color: white;
+        margin-left: 40px;
     }
     .project-title {
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 26px;
+        font-size: 32px;
         font-family: 'poppins', sans-serif;
         color: rgb(155, 155, 255);
+        margin-left: -50px;
+        margin-right: -75px;
     }
     .project-main {
         color: white;
@@ -162,6 +165,525 @@
     }
     .card:hover .layer {
         height: 100%;
+        border: 2px solid blue;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    #project {
+        padding: 20px;
+        color: white;
+        margin-left: 55px;
+    }
+    .project-title {
+        margin-left: 20px;
+        margin-right: -50px;
+    }
+}*/
+
+@media only screen and (max-width:1024px) {
+    #project {
+        padding: 50px;
+        margin: 50px;
+        color: white;
+        margin-top: -60px;
+        margin-left: 20px
+    }
+    .project-main {
+        color: white;
+        padding: 20px;
+        margin-right: -80px;
+        margin-left: -20px;
+    }
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: 20px;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 110px;
+        margin-top: 50px;
+    }
+    .card {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transfrom 0.5s;
+    }
+    .card img {
+        width: 390px;
+        height: 360px;
+        border-radius: 10px;
+        display: block;
+    }
+    .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2c62f6);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 17px;
+        transition: height 0.5s;
+    }
+    .layer h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    .card:hover .layer {
+        height: 100%;
         border: 1px solid blue;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #project {
+        padding: 50px;
+        margin: 50px;
+        color: white;
+        margin-top: -60px;
+        margin-left: 10px
+    }
+    .project-main {
+        color: white;
+        padding: 20px;
+        margin-right: -60px;
+        margin-left: -20px;
+    }
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: 20px;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 90px;
+        margin-top: 50px;
+    }
+    .card {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transfrom 0.5s;
+    }
+    .card img {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        display: block;
+    }
+    .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2c62f6);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 17px;
+        transition: height 0.5s;
+    }
+    .layer h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    .card:hover .layer {
+        height: 100%;
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    #project {
+        padding: 50px;
+        margin: 50px;
+        color: white;
+        margin-top: -60px;
+    }
+    .project-main {
+        color: white;
+        padding: 20px;
+        margin-left: -5px;
+    }
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: -30px;
+        margin-right: -40px;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 60px;
+        margin-top: 50px;
+    }
+    .card {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transfrom 0.5s;
+    }
+    .card img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+    .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2c62f6);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 17px;
+        transition: height 0.5s;
+    }
+    .layer h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    .card:hover .layer {
+        height: 100%;
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    #project {
+        padding: 50px;
+        margin: 50px;
+        color: white;
+        margin-top: -60px;
+    }
+    .project-main {
+        color: white;
+        padding: 20px;
+        margin-left: -50px;
+    }
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: -30px;
+        margin-right: -60px;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 60px;
+        margin-top: 50px;
+    }
+    .card {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transfrom 0.5s;
+    }
+    .card img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+    .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2c62f6);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 17px;
+        transition: height 0.5s;
+    }
+    .layer h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    .card:hover .layer {
+        height: 100%;
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    #project {
+        padding: 50px;
+        margin: 50px;
+        color: white;
+        margin-top: -60px;
+    }
+    .project-main {
+        color: white;
+        padding: 20px;
+        margin-left: -25px;
+    }
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: -30px;
+        margin-right: -130px;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 60px;
+        margin-top: 50px;
+    }
+    .card {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transfrom 0.5s;
+    }
+    .card img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+    .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2c62f6);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 17px;
+        transition: height 0.5s;
+    }
+    .layer h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    .card:hover .layer {
+        height: 100%;
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    #project {
+        padding: 50px;
+        margin: 50px;
+        color: white;
+        margin-top: -60px;
+    }
+    .project-main {
+        color: white;
+        padding: 20px;
+        margin-left: -45px;
+    }
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: -50px;
+        margin-right: -40px;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 60px;
+        margin-top: 50px;
+    }
+    .card {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transfrom 0.5s;
+    }
+    .card img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        display: block;
+    }
+    .layer {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2c62f6);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 17px;
+        transition: height 0.5s;
+    }
+    .layer h3 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 60px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    .card:hover .layer {
+        height: 100%;
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .project-title {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'poppins', sans-serif;
+        color: rgb(155, 155, 255);
+        margin-left: -30px;
+        margin-right: -120px;
     }
 }
