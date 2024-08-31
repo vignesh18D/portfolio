@@ -181,7 +181,7 @@
     }
 }*/
 
-@media only screen and (max-width:1024px) {
+@media only screen and (min-width:769px) and (max-width:1244px) {
     #project {
         padding: 50px;
         margin: 50px;
@@ -264,7 +264,7 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:426px) and (max-width:768px) {
     #project {
         padding: 50px;
         margin: 50px;
@@ -347,7 +347,7 @@
     }
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (min-width:376)and (max-width:425px) {
     #project {
         padding: 50px;
         margin: 50px;
@@ -429,7 +429,7 @@
     }
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (min-width:310px)and (max-width:375px) {
     #project {
         padding: 50px;
         margin: 50px;
@@ -448,8 +448,8 @@
         font-size: 30px;
         font-family: 'poppins', sans-serif;
         color: rgb(155, 155, 255);
-        margin-left: -30px;
-        margin-right: -60px;
+        margin-left: 30px;
+        margin-right: -90px;
     }
     .card-list {
         display: grid;
@@ -511,7 +511,7 @@
     }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (min-width:311px) and (max-width:320px) {
     #project {
         padding: 50px;
         margin: 50px;
