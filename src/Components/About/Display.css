@@ -496,30 +496,30 @@
 
 @media only screen and (min-width:376px) and (max-width:425px) {
     .display-main {
-        max-width: 400px;
+        display: flex;
+        align-items: center;
         font-family: 'Alata', sans-serif;
         backdrop-filter: blur(40%);
         background-color: black;
         color: white;
-        padding: 20px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: auto;
-        padding-top: 80px;
-        gap: 40px;
-        padding-right: 0;
-        margin-left: 10px;
+        height: 550px;
+        justify-content: center;
+        padding-top: 160px;
+        margin-left: 60px;
+        margin-bottom: -100px;
     }
     .display-image img {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 210px;
-        height: 245px;
-        margin-left: -10px;
-        margin-right: 10px;
-        margin-top: 50px;
+        width: 190px;
+        height: 250px;
+        padding: 10px;
+        margin-left: -80px;
+        margin-top: -160px;
+        align-items: center;
+        object-fit: cover;
+        border: none;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-right: 40px;
     }
     .display-content {
         align-items: center;
@@ -529,48 +529,56 @@
         justify-content: center;
         padding: 10px;
         text-align: center;
-        margin-top: 60px;
-        position: relative;
-        z-index: 1;
-        margin-right: -65px;
+        margin-right: 60px;
+        margin-left: 20px;
     }
     .welcome {
         font-family: 'PT serif', sans-serif;
         letter-spacing: 2px;
         align-items: center;
-        font-size: 8px;
+        padding: 10px;
+        font-size: 9px;
         text-align: center;
-        margin-left: 30px;
-        margin-bottom: -30px;
-        margin-left: -25px;
-        margin-top: 30px;
+        margin-left: -20px;
+        margin-top: -110px;
     }
     h1 {
+        letter-spacing: 4px;
         padding: 10px;
         align-items: center;
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: 6px;
-        margin-top: 30px;
-        margin-right: 40px;
-        margin-bottom: -15px;
+        margin-top: -5px;
+        margin-bottom: -20px;
+        margin-right: 30px;
     }
     h1 span {
         font-family: 'OpenSans', sans-serif;
         letter-spacing: 6px;
         color: rgb(196, 145, 3);
-        font-size: 29px;
+        font-size: 35px;
         align-items: center;
-        margin-left: 10px;
     }
     .display-skill {
         font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
-        padding: 5px;
+        letter-spacing: 5px;
+        padding: 10px;
         align-items: center;
-        font-size: 10px;
+        font-size: 8px;
         color: rgba(252, 252, 252, 0.947);
-        font-weight: 22;
-        margin-left: -20px;
+        font-weight: 20;
+        margin-left: -25px;
+        margin-right: -20px;
+    }
+    .display-content {
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        margin-top: 100px;
     }
     .butt {
         border: none;
@@ -578,18 +586,16 @@
         display: flex;
         align-items: center;
         text-decoration: none;
-        margin-left: -40px;
-        margin-top: -30px;
-        padding: 10px;
+        margin-top: -20px;
     }
     .butt a {
         background: transparent;
         border: none;
         color: white;
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 20px;
         border: 2px solid gold;
-        padding: 3px 15px;
+        padding: 5px 15px;
         border-radius: 20px;
         cursor: pointer;
         align-items: center;
@@ -604,8 +610,8 @@
     }
     .social a {
         text-decoration: none;
-        font-size: 30px;
-        margin-left: 20px;
+        font-size: 40px;
+        margin-left: 30px;
         color: rgb(189, 161, 3);
         transition: transform(0.5s);
         border: none;
@@ -616,33 +622,81 @@
     }
 }
 
-@media only screen and (min-width:310px) and (max-width:375px) {
+@media only screen and (min-width:321px) and (max-width:375px) {
     .display-main {
-        max-width: 400px;
+        display: flex;
+        align-items: center;
         font-family: 'Alata', sans-serif;
         backdrop-filter: blur(40%);
         background-color: black;
         color: white;
-        padding: 20px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: auto;
-        padding-top: 80px;
-        gap: 40px;
-        padding-right: 0;
-        margin-left: 50px;
+        height: 550px;
+        justify-content: center;
+        padding-top: 160px;
+        margin-left: 90px;
+        margin-bottom: -100px;
+    }
+    .display-image img {
+        width: 190px;
+        height: 250px;
+        padding: 10px;
+        margin-left: -80px;
+        margin-top: -160px;
+        align-items: center;
+        object-fit: cover;
+        border: none;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-right: 40px;
+    }
+    .display-content {
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        margin-right: 25px;
+        margin-left: 0px;
+    }
+    .welcome {
+        font-family: 'PT serif', sans-serif;
+        letter-spacing: 2px;
+        align-items: center;
+        padding: 10px;
+        font-size: 9px;
+        text-align: center;
+        margin-left: -30px;
+        margin-top: -90px;
+    }
+    h1 {
+        letter-spacing: 4px;
+        padding: 10px;
+        align-items: center;
+        font-size: 12px;
+        letter-spacing: 6px;
+        margin-top: -10px;
+        margin-bottom: -20px;
         margin-right: 50px;
     }
-    .display-image img {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 210px;
-        height: 245px;
-        margin-left: -30px;
-        margin-right: 0;
-        margin-top: 50px;
+    h1 span {
+        font-family: 'OpenSans', sans-serif;
+        letter-spacing: 6px;
+        color: rgb(196, 145, 3);
+        font-size: 30px;
+        align-items: center;
+    }
+    .display-skill {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
+        padding: 10px;
+        align-items: center;
+        font-size: 8px;
+        color: rgba(252, 252, 252, 0.947);
+        font-weight: 20;
+        margin-left: -60px;
+        margin-right: -20px;
     }
     .display-content {
         align-items: center;
@@ -652,48 +706,7 @@
         justify-content: center;
         padding: 10px;
         text-align: center;
-        margin-top: 60px;
-        position: relative;
-        z-index: 1;
-        margin-right: -65px;
-    }
-    .welcome {
-        font-family: 'PT serif', sans-serif;
-        letter-spacing: 2px;
-        align-items: center;
-        font-size: 8px;
-        text-align: center;
-        margin-left: 30px;
-        margin-bottom: -30px;
-        margin-left: -25px;
-        margin-top: 30px;
-    }
-    h1 {
-        padding: 10px;
-        align-items: center;
-        font-size: 13px;
-        letter-spacing: 6px;
-        margin-top: 30px;
-        margin-right: 40px;
-        margin-bottom: -15px;
-    }
-    h1 span {
-        font-family: 'OpenSans', sans-serif;
-        letter-spacing: 6px;
-        color: rgb(196, 145, 3);
-        font-size: 29px;
-        align-items: center;
-        margin-left: 10px;
-    }
-    .display-skill {
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
-        padding: 5px;
-        align-items: center;
-        font-size: 10px;
-        color: rgba(252, 252, 252, 0.947);
-        font-weight: 22;
-        margin-left: -10px;
+        margin-top: 100px;
     }
     .butt {
         border: none;
@@ -701,9 +714,8 @@
         display: flex;
         align-items: center;
         text-decoration: none;
+        margin-top: -20px;
         margin-left: -40px;
-        margin-top: -30px;
-        padding: 10px;
     }
     .butt a {
         background: transparent;
@@ -712,7 +724,7 @@
         font-size: 10px;
         margin-top: 20px;
         border: 2px solid gold;
-        padding: 3px 15px;
+        padding: 5px 15px;
         border-radius: 20px;
         cursor: pointer;
         align-items: center;
@@ -728,7 +740,7 @@
     .social a {
         text-decoration: none;
         font-size: 30px;
-        margin-left: 20px;
+        margin-left: 30px;
         color: rgb(189, 161, 3);
         transition: transform(0.5s);
         border: none;
@@ -739,33 +751,33 @@
     }
 }
 
-@media only screen and (min-width:310px)and (max-width:375px) {
+@media only screen and (min-width:210px)and (max-width:320px) {
     .display-main {
-        max-width: 400px;
+        display: flex;
+        align-items: center;
         font-family: 'Alata', sans-serif;
         backdrop-filter: blur(40%);
         background-color: black;
         color: white;
-        padding: 20px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: auto;
-        padding-top: 80px;
-        gap: 40px;
-        padding-right: 0;
-        margin-left: -10px;
-        margin-right: -90px;
+        height: 550px;
+        justify-content: center;
+        padding-top: 160px;
+        margin-left: 40px;
+        margin-right: -70px;
+        margin-bottom: -150px;
     }
     .display-image img {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 180px;
-        height: 235px;
-        margin-left: -60px;
-        margin-right: 0;
-        margin-top: 50px;
+        width: 150px;
+        height: 220px;
+        padding: 10px;
+        margin-left: -40px;
+        margin-top: -160px;
+        align-items: center;
+        object-fit: cover;
+        border: none;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-right: 40px;
     }
     .display-content {
         align-items: center;
@@ -775,9 +787,96 @@
         justify-content: center;
         padding: 10px;
         text-align: center;
-        margin-top: 60px;
-        position: relative;
-        z-index: 1;
-        margin-right: -15px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .welcome {
+        font-family: 'PT serif', sans-serif;
+        letter-spacing: 2px;
+        align-items: center;
+        padding: 10px;
+        font-size: 9px;
+        text-align: center;
+        margin-left: -30px;
+        margin-top: -95px;
+    }
+    h1 {
+        letter-spacing: 4px;
+        padding: 10px;
+        align-items: center;
+        font-size: 12px;
+        letter-spacing: 6px;
+        margin-top: -10px;
+        margin-bottom: -20px;
+        margin-right: 50px;
+    }
+    h1 span {
+        font-family: 'OpenSans', sans-serif;
+        letter-spacing: 6px;
+        color: rgb(196, 145, 3);
+        font-size: 30px;
+        align-items: center;
+    }
+    .display-skill {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
+        padding: 10px;
+        align-items: center;
+        font-size: 8px;
+        color: rgba(252, 252, 252, 0.947);
+        font-weight: 20;
+        margin-left: -60px;
+        margin-right: -20px;
+    }
+    .display-content {
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .butt {
+        border: none;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    .butt a {
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 10px;
+        margin-top: 20px;
+        border: 2px solid gold;
+        padding: 5px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        align-items: center;
+        font-family: 'poppins', sans-serif;
+        text-decoration: none;
+    }
+    .butt a:hover {
+        background-color: rgb(106, 91, 10);
+    }
+    .social {
+        margin-top: 30px;
+    }
+    .social a {
+        text-decoration: none;
+        font-size: 30px;
+        margin-left: 30px;
+        color: rgb(189, 161, 3);
+        transition: transform(0.5s);
+        border: none;
+    }
+    .butt .social a:hover {
+        transform: translateY(-5px);
+        background: none;
     }
 }

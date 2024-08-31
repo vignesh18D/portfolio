@@ -406,7 +406,7 @@
          margin: 60px 60px 0;
      }
      .contact-main {
-         width: 500px;
+         width: 460px;
          border: 1px solid#ccc;
          height: 470px;
          padding: 10px;
@@ -815,11 +815,11 @@
          margin-top: -40px;
      }
      .contact-main {
-         width: 415px;
+         width: 375px;
          border: 1px solid#ccc;
          height: 420px;
          padding: 10px;
-         margin-left: -90px;
+         margin-left: -80px;
      }
      .contact-left {
          align-items: center;
@@ -853,7 +853,7 @@
      }
      .social-icon {
          margin-top: 40px;
-         margin-left: -10px;
+         margin-left: 10px;
          display: flex;
      }
      .social-icon a {
@@ -890,7 +890,7 @@
      .cv {
          margin-top: 40px;
          align-items: center;
-         margin-left: 10px;
+         margin-left: 30px;
      }
      .copy {
          align-items: center;
@@ -924,11 +924,11 @@
          margin-top: -70px;
      }
      .contact-main {
-         width: 375px;
+         width: 355px;
          border: 1px solid #ccc;
          height: 450px;
          padding: 10px;
-         margin-left: -90px;
+         margin-left: -80px;
      }
      .contact-left {
          align-items: center;
